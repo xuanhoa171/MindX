@@ -1,0 +1,13 @@
+Câu 1 : True
+Câu 2 : True
+Câu 3 : True
+Câu 4 : Error
+Câu 5 : 'The quick brown fox jumps over the lazy dog.’
+Câu 6 : 
+Câu 7 : Error
+Câu 8 : 1 23 4 
+Câu 9 : 3
+Câu 10 : a =3, b = 12
+Câu 11 : Error
+Câu 12 : [1, 2, 3, 4, 5]
+Câu 13 : 16
