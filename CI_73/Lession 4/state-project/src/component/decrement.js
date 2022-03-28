@@ -1,8 +1,6 @@
-import React from "react";
-
 function Decrement(props) {
   return (
-    <div className="btn" onClick={Decrement}>
+    <div className="btn" onClick={props.decrement}>
       -
     </div>
   );

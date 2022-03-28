@@ -1,8 +1,6 @@
 import "./App.css";
-import ToDoList from "./components/ToDoList";
-// import TodoItem from './components/ToDoItem';
+import TodoList from "./components/TodoList";
 import TodoAdd from "./components/TodoAdd";
-
 function App() {
   const list = [
     {
@@ -22,13 +20,12 @@ function App() {
       value: "Doing exercise",
     },
   ];
-
   return (
     <div className="App">
       <div className="App-header">
         <h1>Todo List</h1>
         <TodoAdd />
-        <ToDoList todo={list} />
+        <TodoList todo={list} />
       </div>
     </div>
   );

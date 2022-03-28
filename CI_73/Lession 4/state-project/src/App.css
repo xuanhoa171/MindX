@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.btn {
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  background-color: aqua;
+  margin-left: 50%;
+}
+
+.btn:hover {
+  background-color: red;
+}

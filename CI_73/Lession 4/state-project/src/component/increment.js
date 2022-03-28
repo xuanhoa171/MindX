@@ -1,5 +1,3 @@
-import React from "react";
-
 function Increment(props) {
   return (
     <div className="btn" onClick={props.increment}>

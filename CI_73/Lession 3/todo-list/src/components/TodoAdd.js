@@ -1,28 +1,28 @@
-import React, {useState} from 'react'
+import React, { useState } from "react";
 
 function TodoAdd(props) {
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState("");
 
   const inputChange = (e) => {
     setValue(e.target.value);
   };
 
   return (
-   <div className='todo-add'>
-        <form>
-          <input type ='text' value={value} onChange={inputChange}  />
-          <button
-           onClick={(e) => {
+    <div className="todo-add">
+      <form>
+        <input type="text" value={value} onChange={inputChange} />
+        <button
+          onClick={(e) => {
             e.preventDefault();
             props.addTodo(value);
-
-          } }
-          >
+          }}
+        >
+          <div className="claasName"></div>
           Add
-          </button>
-        </form>
-      </div>
-  )
+        </button>
+      </form>
+    </div>
+  );
 }
 
-export default TodoAdd
+export default TodoAdd;

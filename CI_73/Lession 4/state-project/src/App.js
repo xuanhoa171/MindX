@@ -13,26 +13,18 @@ function App() {
   const decrement = () => {
     setCount(count - 1);
   };
+
   return (
     <div className="App">
       <Count count={count} />
-      <div className="btn-box">
-        {/* <div className="btn" onClick={decrement}>
-          -
-        </div>
-        <div className="btn" onClick={increment}>
-          +
-        </div> */}
-        <Increment />
-        <Decrement />
-      </div>
+      <Increment increment={increment} />
+      <Decrement decrement={decrement} />
     </div>
   );
 }
 
-export default App;
-
 function Count(props) {
-  console.log(props);
-  return <div className="value">count = {props.count} </div>;
+  return <div>COUNT = {props.count}</div>;
 }
+
+export default App;
